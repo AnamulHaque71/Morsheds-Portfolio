@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mid
+  {
+    text-align: center;
+    text-align: left;
+    margin: 200px;
+  }
+  #changing-text {
+    font-weight: bold;
+    color: #3498db;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(../../Images/Background.svg); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    color: white; /* Text color to make it readable on dark background */
+}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo img {
+    max-width: 100%;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: rgb(136, 118, 237);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    color: #f1f1f1;
+  }
+  
+  .login a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    border-radius: 5px;
+  }
+  
+  .login a:hover {
+    background-color: #0056b3;
+  }
+  
